@@ -1,4 +1,4 @@
 #!/bin/bash
 touch school.mgc
-0 SCHOOL School data file
-file -m school.mgc
+echo "0 SCHOOL School data file">> school.mgc
+
