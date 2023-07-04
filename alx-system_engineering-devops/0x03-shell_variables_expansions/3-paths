@@ -1,6 +1,6 @@
 #!/bin/bash
 count=0
-for dir in $(echo $PATH |':' ' '); do
+for dir in $(echo $PATH | tr ':' ' '); do
     if [ -d "$dir" ]; then
         ((count++))
     fi
